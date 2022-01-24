@@ -4,7 +4,7 @@
 - The puzzle changes based on date so running it even from your local file system will also give the same puzzle
 - You can use certain starting words to maximize your chance of success. Use any one of these: opera, adore, arose
 
-The suggested first words were determined by analyzing the list. They contain maximum of the most used letters.
+The suggested first words were determined by analyzing the list. The chosen words contain maximum of the most used letters.
 Also, all the letters are different and the words are from the list from which wordle puzzle will always be chosen.
 
 I created a puzzle generator and a basic puzzle solver. Using the puzzle solver I solved for all possible words and I found that the steps to solve the puzzle:
