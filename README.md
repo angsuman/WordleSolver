@@ -1,1 +1,5 @@
-# WordleSolver
+Every single one of these patents that contains that 19nt sequence (for which the probability of occurring by random chance is less than 1 in a billion) is from Moderna. [Note the sequence is actually the reverse complement sequence but this is likely a direct result of the cell lines that it occurred in - MSH3_mutated cell lines designed for developing cancer vaccines, the Moderna patent was actually for a mutated MSH3 gene for this purpose]
+
+In order for that sequence to have arisen in that virus, the virus which was manufactured with its HIV inserts, had to have had been infected into patented cell lines supplied by Moderna that had that unique sequence not seen in any other virus.
+
+In theory nothing is impossible in science, medicine or genomics. A SARS virus emerging naturally with 3 HIV inserts at its binding sites and also containing a furin cleavage site that doesn’t exist in nature but does exist in a Moderna patent… that’s seriously crazy talk. It doesn’t exist. A flying pink elephant would be a million times more likely.
