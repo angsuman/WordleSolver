@@ -1,5 +1,22 @@
-Every single one of these patents that contains that 19nt sequence (for which the probability of occurring by random chance is less than 1 in a billion) is from Moderna. [Note the sequence is actually the reverse complement sequence but this is likely a direct result of the cell lines that it occurred in - MSH3_mutated cell lines designed for developing cancer vaccines, the Moderna patent was actually for a mutated MSH3 gene for this purpose]
+Wordle is an interesting puzzle so I looked deeper into it and here's what I found:
+- Wordle works with two lists. It will only select puzzle from list 1 but will accept words from list 2 as valid words.
+- List 1 contains only 2315 words from which all puzzle will be chosen
+- The puzzle changes based on date so running it from your local file system will also give the same puzzle (haven't looked into the hashing algo used)
+- You can use certain starting words to maximize your chance of success. Use any one: opera, adore, arose
 
-In order for that sequence to have arisen in that virus, the virus which was manufactured with its HIV inserts, had to have had been infected into patented cell lines supplied by Moderna that had that unique sequence not seen in any other virus.
+The suggested first words were determined by analyzing the list. They contain maximum of the most used letters.
+Also, all the letters are different and the words are from the list from which wordle puzzle will always be chosen.
 
-In theory nothing is impossible in science, medicine or genomics. A SARS virus emerging naturally with 3 HIV inserts at its binding sites and also containing a furin cleavage site that doesn’t exist in nature but does exist in a Moderna patent… that’s seriously crazy talk. It doesn’t exist. A flying pink elephant would be a million times more likely.
+I created a puzzle generator and a basic puzzle solver. Using the puzzle solved I solved for all pozzible words and I found that the steps to solve the puzzle:
+- on average is 4 steps
+- maximum is 10 steps
+- minimum is 2 steps
+
+The pseudo-code required to solve each puzzle is simple:
+In first choose one of: opea
+In each step look for words which:
+- do not contain any of the excluded letters
+- contains all included letters
+- contains included letters in known positions, if any, and not in positions where they do not occur
+
+I have included Java code for solving the puzzle as well as testing all the words. Uncomment the System.out.println lines to see the solutions.
