@@ -1,6 +1,6 @@
 [Wordle](https://www.powerlanguage.co.uk/wordle/) is an interesting puzzle so I looked deeper into it and here's what I found:
 - Wordle works with two lists. It will only select puzzle from list 1 but will accept words from list 2 as valid words.
-- List 1 contains only 2315 words from which all puzzle will be chosen
+- [List 1](wordle.txt) contains only 2315 words from which all puzzle will be chosen
 - The puzzle changes based on date so running it even from your local file system will also give the same puzzle
 - You can use certain starting words to maximize your chance of success. Use any one of these: opera, adore, arose
 
